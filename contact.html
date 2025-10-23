@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Ingenie Technologies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="container">
+        <a class="brand" href="index.html">Ingenie Technologies</a>
+        <nav class="primary-nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="industries.html">Industries</a></li>
+            <li><a href="case-studies.html">Case Studies</a></li>
+            <li><a href="approach.html">Approach</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <a class="cta" href="contact.html">Let's Talk</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Contact us</p>
+          <h1>Let’s architect your next advantage</h1>
+          <p>
+            Tell us about your initiative and we’ll assemble the right Ingenie team to help
+            you deliver impact faster.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="contact-layout">
+            <div class="contact-info">
+              <h2>How we can help</h2>
+              <p>
+                Share a few details about your challenge, and we’ll set up a conversation
+                with the specialists best suited to support you.
+              </p>
+              <div class="contact-meta">
+                <div>
+                  <h3>Global offices</h3>
+                  <p>New York · London · Bengaluru · Singapore</p>
+                </div>
+                <div>
+                  <h3>Email</h3>
+                  <a href="mailto:hello@ingenietechnologies.com">hello@ingenietechnologies.com</a>
+                </div>
+                <div>
+                  <h3>Phone</h3>
+                  <a href="tel:+12125551234">+1 (212) 555-1234</a>
+                </div>
+              </div>
+              <div class="office-hours">
+                <h3>Office hours</h3>
+                <p>Monday – Friday, 8:30am to 7:00pm local time</p>
+              </div>
+            </div>
+            <form class="contact-form" aria-label="Contact form">
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Alex Morgan" required />
+              </label>
+              <label>
+                Work email
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="alex.morgan@company.com"
+                  required
+                />
+              </label>
+              <label>
+                Company
+                <input type="text" name="company" placeholder="Your organization" required />
+              </label>
+              <label>
+                How can we help?
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Briefly describe your initiative"
+                  required
+                ></textarea>
+              </label>
+              <label>
+                Region
+                <select name="region" required>
+                  <option value="">Select a region</option>
+                  <option>Americas</option>
+                  <option>Europe, Middle East &amp; Africa</option>
+                  <option>Asia Pacific</option>
+                </select>
+              </label>
+              <button type="submit" class="btn primary full-width">Submit</button>
+              <p class="form-disclaimer">
+                By submitting this form you agree to our privacy policy and consent to being
+                contacted by Ingenie Technologies.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="container">
+          <div class="cards-grid three">
+            <article class="card compact">
+              <h3>Partnerships</h3>
+              <p>Interested in collaborating with Ingenie? Reach our alliances team.</p>
+              <a class="inline-link" href="mailto:partners@ingenietechnologies.com">Email partnerships</a>
+            </article>
+            <article class="card compact">
+              <h3>Careers</h3>
+              <p>Explore open roles for consultants, engineers, and designers worldwide.</p>
+              <a class="inline-link" href="mailto:careers@ingenietechnologies.com">Connect with talent</a>
+            </article>
+            <article class="card compact">
+              <h3>Media inquiries</h3>
+              <p>Request commentary or schedule interviews with our leadership team.</p>
+              <a class="inline-link" href="mailto:press@ingenietechnologies.com">Contact communications</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <a class="brand" href="index.html">Ingenie Technologies</a>
+        <div class="footer-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+          <a href="accessibility.html">Accessibility</a>
+        </div>
+        <p class="copyright">© <span id="year"></span> Ingenie Technologies. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
