@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility | Ingenie Technologies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="container">
+        <a class="brand" href="index.html">Ingenie Technologies</a>
+        <nav class="primary-nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="industries.html">Industries</a></li>
+            <li><a href="case-studies.html">Case Studies</a></li>
+            <li><a href="approach.html">Approach</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <a class="cta" href="contact.html">Let's Talk</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Accessibility</p>
+          <h1>Inclusive design is central to Ingenie experiences</h1>
+          <p>
+            We strive to make our digital experiences accessible to everyone, including
+            people with disabilities.
+          </p>
+        </div>
+      </section>
+
+      <section class="section legal">
+        <div class="container">
+          <h2>Our commitment</h2>
+          <p>
+            Ingenie Technologies follows WCAG 2.1 AA guidelines and partners with
+            accessibility specialists to continuously improve usability for all users.
+          </p>
+
+          <h2>Accessibility features</h2>
+          <ul class="check-list">
+            <li>Semantic HTML and ARIA attributes for assistive technologies</li>
+            <li>Keyboard navigable experiences across all interactive elements</li>
+            <li>Color contrast ratios that meet or exceed WCAG requirements</li>
+            <li>Captioning and transcripts for multimedia content</li>
+          </ul>
+
+          <h2>Ongoing testing</h2>
+          <p>
+            We perform manual and automated testing, including reviews with assistive
+            technology users, to identify and remediate accessibility issues.
+          </p>
+
+          <h2>Feedback</h2>
+          <p>
+            If you encounter a barrier while using our site, please contact
+            accessibility@ingenietechnologies.com. We aim to respond within two business
+            days.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <a class="brand" href="index.html">Ingenie Technologies</a>
+        <div class="footer-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+          <a href="accessibility.html">Accessibility</a>
+        </div>
+        <p class="copyright">© <span id="year"></span> Ingenie Technologies. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
